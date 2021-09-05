@@ -1,0 +1,18 @@
+projects:
+  Chinchilla_site:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: ap-northeast-1
+        apiId: tjbjfywz4ng3xkmnhpyrxxh3r4
+        maxDepth: 2
+extensions:
+  amplify:
+    version: 3
